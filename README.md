@@ -1,9 +1,9 @@
 # Wine Quality Modeling
-**- Cria um modelo com script feito no R para estimar a qualidade do vinho
+- Cria um modelo com script feito no R para estimar a qualidade do vinho
 - Murillo Marco Carvalho Cunha
 - Teste de Modelagem
 - Objetivo: criar um modelo para estimar a qualidade do vinho
-- 11/06/2018**
+- 11/06/2018
 
 **pacotes necessários**
 polr{MASS}
