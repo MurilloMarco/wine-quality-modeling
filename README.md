@@ -1,38 +1,41 @@
-# wine-quality-modeling
-### Cria um modelo com script feito no R para estimar a qualidade do vinho
-### - Murillo Marco Carvalho Cunha
-### - Teste de Modelagem
-### - Objetivo: criar um modelo para estimar a qualidade do vinho
-### - 11/06/2018
+# Wine Quality Modeling
+**- Cria um modelo com script feito no R para estimar a qualidade do vinho
+- Murillo Marco Carvalho Cunha
+- Teste de Modelagem
+- Objetivo: criar um modelo para estimar a qualidade do vinho
+- 11/06/2018**
 
-#pacotes necessários
-install.packages("MASS")   # polr{MASS}
-install.packages("rpart")  # rpart{rpart}
-install.packages("randomForest")  # randomForest{randomForest}
+**pacotes necessários**
+polr{MASS}
+install.packages("MASS")
+
+rpart{rpart}
+install.packages("rpart")
+
+randomForest{randomForest}
+install.packages("randomForest")
 library(MASS)
 library(rpart)
 library(randomForest)
 
-#carregando base de dados
+**carregando base de dados**
 setwd("C:\\Users\\Murillo Marco\\Desktop\\Cognitivo.AI")
 
 wqdata = read.csv("winequality.csv", sep = ";", h = T, stringsAsFactors = F)
 
-#visualizar a base de dados que acabei de carregar
+**visualizar parte da base de dados **
 View(head(wqdata))
 
-#nomes das colunas existentes
+**nomes das colunas existentes**
 names(wqdata)
 
-#visualizar a dimensão da minha tabela
+**visualizar a dimensão da minha tabela
 dim(wqdata)
 
-#visualizar a estrutura dos campos da tabela
+**visualizar a estrutura dos campos da tabela
 str(wqdata)
 
-################################################
-####### 1.ANALISE EXPLORATÓRIA DOS DADOS #######
-################################################
+## 1.ANALISE EXPLORATÓRIA DOS DADOS
 
 #OBS.: a variável alcohol entrou como string
 head(wqdata)
