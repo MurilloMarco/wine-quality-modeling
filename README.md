@@ -7,22 +7,20 @@
 
 **pacotes necessários**
 polr{MASS}
-
-install.packages("MASS")
+`install.packages("MASS")`
 
 rpart{rpart}
-
-install.packages("rpart")
+`install.packages("rpart")`
 
 randomForest{randomForest}
 
-install.packages("randomForest")
+`install.packages("randomForest")`
 
-library(MASS)
+`library(MASS)`
 
-library(rpart)
+`library(rpart)`
 
-library(randomForest)
+`library(randomForest)`
 
 **carregando base de dados**
 setwd("C:\\Users\\Murillo Marco\\Desktop\\Cognitivo.AI")
