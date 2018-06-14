@@ -7,15 +7,21 @@
 
 **pacotes necessários**
 polr{MASS}
+
 install.packages("MASS")
 
 rpart{rpart}
+
 install.packages("rpart")
 
 randomForest{randomForest}
+
 install.packages("randomForest")
+
 library(MASS)
+
 library(rpart)
+
 library(randomForest)
 
 **carregando base de dados**
