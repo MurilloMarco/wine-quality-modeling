@@ -35,7 +35,6 @@ names(wqdata)
 
 **visualizar a dimensão da minha tabela
 dim(wqdata)
-
 **visualizar a estrutura dos campos da tabela
 str(wqdata)
 
